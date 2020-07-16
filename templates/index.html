@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1><a href="{% url 'posts:all' %}">{{user.username}}
+</a>welcome to our home page!</h1>
+
+{% endblock %}
+
+
